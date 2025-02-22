@@ -73,5 +73,5 @@ app.get("/profiles/:user", (req, res) => {
 // });
 
 app.listen(port, () => {
-  console.log(`Server is running at http://localhost:3000`);
+  console.log(`Server is running at http://localhost:${post}`);
 });
