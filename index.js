@@ -68,10 +68,7 @@ app.get("/profiles/:user", (req, res) => {
   res.render("profile.ejs", { userFound });
 });
 
-// app.get("/profile", (req, res) => {
-//   res.render("profile.ejs");
-// });
 
 app.listen(port, () => {
-  console.log(`Server is running at http://localhost:${post}`);
+  console.log(`Server is running at http://localhost:${port}`);
 });
